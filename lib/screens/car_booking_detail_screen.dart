@@ -107,7 +107,10 @@ class _CarBookingDetailsScreenState
     final car = widget.car;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Book ${car.name}'),
+        title: Text(
+          'Book ${car.name}',
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
         backgroundColor: Colors.blue.shade900,
         elevation: 0,

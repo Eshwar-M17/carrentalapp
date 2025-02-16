@@ -80,7 +80,6 @@ class _CarRentalDetailScreenState extends ConsumerState<CarRentalDetailScreen> {
       _totalCost = days * widget.car.pricePerDay;
     }
   }
-  
 
   Future<void> _confirmRental() async {
     if (_rentalStartDate == null ||
@@ -129,11 +128,10 @@ class _CarRentalDetailScreenState extends ConsumerState<CarRentalDetailScreen> {
             .collection('rentedCars')
             .doc(newRental.id)
             .set(rentalData);
-      
       } else {
         debugPrint("Error: No user logged in.");
       }
-        await showBookingConfirmationNotification(newRental);
+      await showBookingConfirmationNotification(newRental);
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Error saving booking: $e')),
@@ -150,23 +148,21 @@ class _CarRentalDetailScreenState extends ConsumerState<CarRentalDetailScreen> {
         ),
       ),
     );
-    
-// Inside _confirmRental method, after successful Firestore upload:
-try {
-  // Schedule notification after successful booking
-  await scheduleRentalProgressNotification(
-    rentStartDate: newRental.rentStartDate,
-    rentEndDate: newRental.endDate,
-    car: newRental,
-  );
-} catch (e) {
-  debugPrint('Error scheduling notification: $e');
-  ScaffoldMessenger.of(context).showSnackBar(
-    const SnackBar(content: Text('Error scheduling reminder')),
-  );
-}
 
-  
+// Inside _confirmRental method, after successful Firestore upload:
+    try {
+      // Schedule notification after successful booking
+      await scheduleRentalProgressNotification(
+        rentStartDate: newRental.rentStartDate,
+        rentEndDate: newRental.endDate,
+        car: newRental,
+      );
+    } catch (e) {
+      debugPrint('Error scheduling notification: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Error scheduling reminder')),
+      );
+    }
 
     Navigator.pop(context);
   }
@@ -190,7 +186,10 @@ try {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(car.name),
+        title: Text(
+          car.name,
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
         backgroundColor: Colors.blue.shade900,
         elevation: 0,
