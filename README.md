@@ -93,7 +93,7 @@ A short demo video (1–3 minutes) has been recorded to showcase the key feature
 
 You can watch the demo video by clicking the thumbnail below:
 
-[![Demo Video](demo_video_thumbnail.png)](https://your-demo-video-link.com)  
+[![Demo Video](demo_video_thumbnail.png)](demo_video/demo-vid.mp4)  
 *(Replace the image and link with your actual demo video thumbnail and URL.)*
 
 ### Screenshots
