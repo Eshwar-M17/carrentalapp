@@ -93,21 +93,15 @@ A short demo video (1–3 minutes) has been recorded to showcase the key feature
 
 You can watch the demo video by clicking the thumbnail below:
 
-[![Demo Video](demo_video_thumbnail.png)](demo_video/demo-vid.mp4)  
-*(Replace the image and link with your actual demo video thumbnail and URL.)*
-
+[![Demo Video](demo_video/demo-vid.png)](demo_video/demo-vid.mp4)  
 ### Screenshots
 
-Here are some screenshots of the app in action:
+<div align="center">
+  <img src="demo_video/screenshots/login.png" alt="Login Screen" width="200"/>
+  <img src="demo_video/screenshots/homescreen.png" alt="SignUp Screen" width="200"/>
+  <img src="demo_video/screenshots/homescreen.png" alt="Home Page" width="200"/>
+  <img src="demo_video/screenshots/booking_history_screen.png" alt="Booking History Page" width="200"/>
+  <img src="demo_video/screenshots/profilescreen.png" alt="Profile Page" width="200"/>
+</div>
 
-- **Home Screen:**  
-  ![Home Screen](screenshots/home_screen.png)
 
-- **Booking Screen:**  
-  ![Booking Screen](screenshots/booking_screen.png)
-
-- **Profile/History Screen:**  
-  ![Profile/History Screen](screenshots/profile_screen.png)
-
-*(Ensure that the images are stored in the repository under the appropriate folders such as `screenshots` and update the file names/paths accordingly.)*
-```
