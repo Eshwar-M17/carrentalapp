@@ -98,7 +98,7 @@ You can watch the demo video by clicking the thumbnail below:
 
 <div align="center">
   <img src="demo_video/screenshots/login.png" alt="Login Screen" width="200"/>
-  <img src="demo_video/screenshots/homescreen.png" alt="SignUp Screen" width="200"/>
+  <img src="demo_video/screenshots/signup.png" alt="SignUp Screen" width="200"/>
   <img src="demo_video/screenshots/homescreen.png" alt="Home Page" width="200"/>
   <img src="demo_video/screenshots/booking_history_screen.png" alt="Booking History Page" width="200"/>
   <img src="demo_video/screenshots/profilescreen.png" alt="Profile Page" width="200"/>
