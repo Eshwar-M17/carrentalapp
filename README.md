@@ -51,3 +51,63 @@ The following features are part of the original assignment requirements but have
    ```bash
    git clone https://github.com/Eshwar-M17/carrentalapp.git
    cd carrentalapp
+```markdown
+## Install Dependencies
+
+```bash
+flutter pub get
+```
+
+## Firebase Configuration
+
+The Firebase configuration files are included for easy testing. In a production environment, it is recommended to exclude these files using `.gitignore`.
+
+Ensure `android/app/google-services.json` and `ios/Runner/GoogleService-Info.plist` are in place.
+
+## Run the App
+
+- **For Android:**
+
+  ```bash
+  flutter run
+  ```
+
+- **For iOS:**
+
+  ```bash
+  flutter run
+  ```
+
+Alternatively, use your preferred IDE’s run/debug options.
+
+## Demo Video & Screenshots
+
+### Demo Video
+
+A short demo video (1–3 minutes) has been recorded to showcase the key features of the app, including:
+
+- User registration and login.
+- Browsing available cars and booking/renting a car.
+- Viewing booking history and car return deadlines.
+- Displaying notifications after 70% of the rental duration to confirm booking.
+
+You can watch the demo video by clicking the thumbnail below:
+
+[![Demo Video](demo_video_thumbnail.png)](https://your-demo-video-link.com)  
+*(Replace the image and link with your actual demo video thumbnail and URL.)*
+
+### Screenshots
+
+Here are some screenshots of the app in action:
+
+- **Home Screen:**  
+  ![Home Screen](screenshots/home_screen.png)
+
+- **Booking Screen:**  
+  ![Booking Screen](screenshots/booking_screen.png)
+
+- **Profile/History Screen:**  
+  ![Profile/History Screen](screenshots/profile_screen.png)
+
+*(Ensure that the images are stored in the repository under the appropriate folders such as `screenshots` and update the file names/paths accordingly.)*
+```
