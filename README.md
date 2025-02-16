@@ -9,7 +9,6 @@ This Flutter application is a prototype for a car rental and sales service devel
 - **User Side:**
   - **Registration & Login:** Secure user authentication.
   - **Car Booking & Rental:** Browse available cars and book or rent them.
-  - **Payment & Verification:** Users can deposit money and verify their identity.
   - **Booking History:** View past and current bookings along with car return deadlines.
   - **Notifications:** Receive alerts 30% before the rental period ends to extend the booking.
 
