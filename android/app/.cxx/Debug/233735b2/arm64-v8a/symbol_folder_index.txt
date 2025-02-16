@@ -1,0 +1,1 @@
+C:\rentalapp\carrentalapp\build\app\intermediates\cxx\Debug\233735b2\obj\arm64-v8a

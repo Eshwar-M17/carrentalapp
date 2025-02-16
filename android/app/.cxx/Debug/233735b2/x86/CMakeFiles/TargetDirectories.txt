@@ -1,0 +1,2 @@
+C:/rentalapp/carrentalapp/android/app/.cxx/Debug/233735b2/x86/CMakeFiles/edit_cache.dir
+C:/rentalapp/carrentalapp/android/app/.cxx/Debug/233735b2/x86/CMakeFiles/rebuild_cache.dir
